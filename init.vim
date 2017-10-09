@@ -141,7 +141,6 @@ set pastetoggle=<F12>
 cmap w!! w !sudo tee % >/dev/null
 cmap W w
 cmap Q q
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
 inoremap <A-j> <Esc>:m .+1<CR>==gi
